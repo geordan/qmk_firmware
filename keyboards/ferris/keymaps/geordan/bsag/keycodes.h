@@ -33,26 +33,26 @@
 #define W_L A(KC_LEFT)      // move word left
 #define W_R A(KC_RIGHT)     // move word right
 #define LAU LGUI(KC_SPC)    // launcher (cmd+spc)
-// awkward symbols to type
+                            // awkward symbols to type
 #define GBPD LALT(KC_3) // UK pound sign
 #define PMIN LALT(KC_PLUS) // plus/minus symbol
 
 enum layers {
-    _CDH,
-	_NUM,
-	_NAV,
-	_FUN,
+  _QTY,
+  _NUM,
+  _NAV,
+  _FUN,
 };
 
 enum keycodes {
-	// Numword and switch app
-	NUMWORD = SAFE_RANGE,
+  // Numword and switch app
+  NUMWORD = SAFE_RANGE,
 
-	OS_SHFT,
-    OS_CTRL,
-    OS_ALT,
-    OS_CMD,
+  OS_SHFT,
+  OS_CTRL,
+  OS_ALT,
+  OS_CMD,
 
-	LLOCK,
-	SW_APP,
+  LLOCK,
+  SW_APP,
 };
